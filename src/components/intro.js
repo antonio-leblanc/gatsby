@@ -4,7 +4,7 @@ export default function Intro() {
   return (<>
   <div className="subsection" data-aos="fade-right">
     <div className="img-container">
-    <img class="rounded-img" src={'/images/about_me.jpg'} alt="Logo" />
+    <img className="rounded-img" src={'/images/about_me.jpg'} alt="Logo" />
     </div>
     <div className="subsection-content">
       <div className="content-block">

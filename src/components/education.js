@@ -5,7 +5,7 @@ export default function Education() {
   return (<>
     <div className="subsection"  data-aos="fade-right">
     <div className="img-container">
-    <img class="rounded-img" src={'/images/centrale.png'} alt="Logo" />
+    <img className="rounded-img" src={'/images/centrale.png'} alt="Logo" />
 
     </div>
     <div className="subsection-content"><h1 className="content-title">
