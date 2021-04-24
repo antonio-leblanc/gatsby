@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 // import { Link } from "gatsby"
+import Header from "../components/header"
 import About from "../components/about"
 import Projects from "../components/projects"
 import Education from "../components/education"
-import TypedReactDemo from '../components/header'
 
 import AOS from 'aos';
 import "../styles/layout.css"
@@ -32,12 +32,10 @@ export default function Home() {
   return (
     <div>
 
-      <TypedReactDemo/>
-
+      <Header></Header>
       <About></About>
       <Projects></Projects>
       <Education></Education>
-      <About></About>
 
     </div>
   )
