@@ -4,6 +4,7 @@ import Header from "../components/header"
 import Intro from "../components/intro"
 import About from "../components/about"
 import Projects from "../components/projects"
+import Work from "../components/work"
 import Education from "../components/education"
 
 import AOS from 'aos';
@@ -36,6 +37,8 @@ export default function Home() {
       <About></About>
       <Intro></Intro>
       <Education></Education>
+      <Projects></Projects>
+      <Work></Work>
       <Projects></Projects>
 
     </div>
