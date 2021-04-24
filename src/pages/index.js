@@ -2,10 +2,28 @@ import React, { useEffect } from 'react';
 // import { Link } from "gatsby"
 import About from "../components/about"
 import Projects from "../components/projects"
-import AOS from 'aos';
-import "../styles/layout.css"
 
+import AOS from 'aos';
+import Typed from 'typed.js'
+
+import "../styles/layout.css"
 export default function Home() {
+  var typed = new Typed('.typed-element', 
+    {
+        strings: [
+          "ForestFire Engineering",
+          "Cycling",
+          "Software Development",
+          "Piano",
+          "Design",
+          "Artificial Intelligence",
+          "Adventure"
+        ],
+        typeSpeed: 60,
+        backSpeed: 50,
+        loop:true,
+      }
+  );
 
   useEffect(() => {
     /**
