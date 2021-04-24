@@ -35,8 +35,8 @@ export default function Home() {
       <Header></Header>
       <About></About>
       <Intro></Intro>
-      <Projects></Projects>
       <Education></Education>
+      <Projects></Projects>
 
     </div>
   )

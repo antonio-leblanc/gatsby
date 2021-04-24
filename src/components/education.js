@@ -3,6 +3,11 @@ import React from 'react';
 export default function Education() {
 
   return (<>
+    <div className="subsection"  data-aos="fade-right">
+    <div className="img-container">
+    <img class="rounded-img" src={'/images/centrale.png'} alt="Logo" />
+
+    </div>
     <div className="subsection-content"><h1 className="content-title">
         Education</h1>
       <div className = "content-block">
@@ -47,6 +52,7 @@ export default function Education() {
           
         </ul>
         </div>
+      </div>
       </div>
       </div>
     </>
