@@ -499,7 +499,7 @@ body {
 }
 
 .title-name {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', sans-serif;
   font-size: min(20vw,7.5rem);
   font-weight: 100;
 }
