@@ -3,34 +3,17 @@ import React from 'react';
 export default function Work() {
 
 
-  const tabs = document.querySelectorAll('[data-tab-target]')
-  const tabContents = document.querySelectorAll('[data-tab-content]')
-
-  tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-          const target = document.querySelector(tab.dataset.tabTarget)
-          tabContents.forEach(tabContent => {
-              tabContent.classList.remove('active')
-          })
-          tabs.forEach(tab => {
-              tab.classList.remove('active')
-          })
-
-          tab.classList.add('active')
-          target.classList.add('active')
-      })
-  })
 
   return (<>
-    <section class="subsection" id="work-sub" data-aos="fade-left">
-      <h1 class="subsection-title">
+    <section className="subsection" id="work-sub" data-aos="fade-left">
+      <h1 className="subsection-title">
         Work
       </h1>
-      <div class="tabs-container">
-        <ul class ="job-tabs-list">
-          <li data-tab-target="#sintecsys" class="active job-tab">umgrauemeio</li>
-          <li data-tab-target="#radix" class="job-tab">Radix</li>
-          <li data-tab-target="#amazon" class="job-tab">Amazon</li>
+      <div className="tabs-container">
+        <ul className ="job-tabs-list">
+          <li data-tab-target="#sintecsys" className="active job-tab">umgrauemeio</li>
+          <li data-tab-target="#radix" className="job-tab">Radix</li>
+          <li data-tab-target="#amazon" className="job-tab">Amazon</li>
         </ul>
         <div className="job-tab-content">
           <div id="sintecsys" className="active" data-tab-content>
