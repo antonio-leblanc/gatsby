@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 // import { Link } from "gatsby"
 import Header from "../components/header"
+import Intro from "../components/intro"
 import About from "../components/about"
 import Projects from "../components/projects"
 import Education from "../components/education"
@@ -31,9 +32,9 @@ export default function Home() {
 
   return (
     <div>
-
-      <Header></Header>
       <About></About>
+      <Header></Header>
+      <Intro></Intro>
       <Projects></Projects>
       <Education></Education>
 
