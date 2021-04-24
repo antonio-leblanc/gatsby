@@ -492,6 +492,10 @@ body {
 
 /* ---------------------------- */
 /* -- BG IMAGES -- */
+.bg-img-1 {
+  background-image: url(/images/moto-ride.png);
+}
+
 /* -- Opening -- */
 .intro-text {
   text-align: left;
