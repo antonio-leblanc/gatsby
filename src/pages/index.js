@@ -37,6 +37,8 @@ export default function Home() {
       <About></About>
       <Projects></Projects>
       <Education></Education>
+      <About></About>
+
     </div>
   )
 }
