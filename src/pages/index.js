@@ -62,9 +62,8 @@ export default function Home() {
       <Education></Education>
       <Projects></Projects>
       <Work></Work>
-      <Projects></Projects>
-      <Map></Map>
       <Skills></Skills>
+      <Map></Map>
 
     </div>
   )

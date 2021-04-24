@@ -49,7 +49,7 @@ const Skills = () => {
     }, [])
 
     return(
-        <div>
+        <div data-aos="fade-left">
             <h1>Hello</h1>
             <div class="chart-container">
                 <Radar data={whatever} options={options}/>
