@@ -3,13 +3,13 @@ import React from 'react';
 export default function Education() {
 
   return (<>
-    <div class="subsection-content"><h1 class="content-title">
+    <div className="subsection-content"><h1 className="content-title">
         Education</h1>
-      <div class = "content-block">
-        <h3 class ="block-title">
+      <div className = "content-block">
+        <h3 className ="block-title">
           Ecole Centrale de Lyon
         </h3>
-        <div class="styled-list">
+        <div className="styled-list">
         <ul>
           <li> General Engineering</li>
           <li> Coach of the Handball</li>
@@ -28,9 +28,9 @@ export default function Education() {
         </div>
       </div>
       
-      <div class = "content-block">
-        <h3 class ="block-title">Universidade Federal do Rio de Janeiro</h3>
-        <div class="styled-list">
+      <div className = "content-block">
+        <h3 className ="block-title">Universidade Federal do Rio de Janeiro</h3>
+        <div className="styled-list">
         <ul>
           <li>Mechanical Engineering</li>
           <li>
