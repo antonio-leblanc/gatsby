@@ -32,8 +32,8 @@ export default function Home() {
 
   return (
     <div>
-      <About></About>
       <Header></Header>
+      <About></About>
       <Intro></Intro>
       <Projects></Projects>
       <Education></Education>
