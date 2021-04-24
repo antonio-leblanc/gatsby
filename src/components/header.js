@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Header(props) {
   return (
-    <header>
+    <header id='header'>
     <div class="nav-item">
       <a class="nav-icon" href="#top" id="logo">
         {/* <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
