@@ -37,16 +37,16 @@ export default function Sports() {
     </div>
   </section>
 
-  <section class="subsection">
+  <section className="subsection">
 
-    <div class="subsection-content">
+    <div className="subsection-content">
 
-      <div class="content-block">
-        <h3 class ="block-title">
-          {/* <img class="header-icon" src="images/icons/skate.svg"> */}
+      <div className="content-block">
+        <h3 className ="block-title">
+          {/* <img className="header-icon" src="images/icons/skate.svg"> */}
           Other interests
         </h3>
-        <div class="styled-list">
+        <div className="styled-list">
           <ul>
             <li>Skate</li>
             <li>Surf</li>
@@ -55,9 +55,9 @@ export default function Sports() {
       </div>
     </div>
 
-    <div class="subsection-fix-video">
-      <div class="video-container">
-        <iframe class="resp-iframe" src="https://www.youtube.com/embed/rY_qraWPbE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div className="subsection-fix-video">
+      <div className="video-container">
+        <iframe className="resp-iframe" src="https://www.youtube.com/embed/rY_qraWPbE0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     </div>
   

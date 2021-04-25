@@ -30,7 +30,7 @@ export default function Music() {
     
     <div className="subsection-fix-video">
       <div className="video-container">
-        <iframe className="resp-iframe" src="https://www.youtube.com/embed/bLVWiq8Z1cU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className="resp-iframe" src="https://www.youtube.com/embed/bLVWiq8Z1cU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     </div>
     

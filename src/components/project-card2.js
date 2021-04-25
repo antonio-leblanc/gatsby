@@ -47,7 +47,7 @@ export default function MediaControlCard(props) {
             {props.text}
           </Typography>
           <Typography variant="subtitle1" color="textSecondary">
-            Mac Miller
+            DNA
           </Typography>
         </CardContent>
         <div className={classes.controls}>
@@ -62,11 +62,7 @@ export default function MediaControlCard(props) {
           </IconButton>
         </div>
       </div>
-      <CardMedia
-        className={classes.cover}
-        image="/static/images/cards/live-from-space.jpg"
-        title="Live from space album cover"
-      />
+
     </Card>
   );
 }
