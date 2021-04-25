@@ -8,6 +8,7 @@ import Work from "../components/work"
 import Education from "../components/education"
 import Map from "../components/map"
 import Skills from "../components/skills"
+import Music from "../components/music"
 
 import AOS from 'aos';
 import "../styles/layout.css"
@@ -64,7 +65,8 @@ export default function Home() {
       <Work></Work>
       <Skills></Skills>
       <Map></Map>
-
+      <Music></Music>
+      
     </div>
   )
 }

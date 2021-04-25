@@ -529,6 +529,7 @@ body {
 }
 
 .music .text-mask {
+  background-image: url(/images/music-bg.png);
   font-family: "Nova Mono", "monospace";
   font-size: 18vw;
   font-weight: bolder;
