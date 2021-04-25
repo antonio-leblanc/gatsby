@@ -51,10 +51,10 @@ export default function Work() {
         </div>
       </div>
     </section>
-    <section class="subsection">
-      <div class="subsection-fix-video">
-        <div class="video-container">
-          <iframe class="resp-iframe" src="https://www.youtube.com/embed/dtMUfxGnLtw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section className="subsection">
+      <div className="subsection-fix-video">
+        <div className="video-container">
+          <iframe className="resp-iframe" src="https://www.youtube.com/embed/dtMUfxGnLtw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
     </section>
