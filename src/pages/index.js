@@ -14,6 +14,7 @@ import Sports from "../components/sports"
 import AOS from 'aos';
 import "../styles/layout.css"
 import "@fontsource/montserrat" // Defaults to weight 400.
+import "@fontsource/poiret-one" // Defaults to weight 400.
 
 export default function Home() {
   useEffect(() => {

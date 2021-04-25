@@ -1040,6 +1040,11 @@
   "resolved" "https://registry.npmjs.org/@fontsource/montserrat/-/montserrat-4.2.2.tgz"
   "version" "4.2.2"
 
+"@fontsource/poiret-one@^4.2.2":
+  "integrity" "sha512-bMM4+M4V+XMhbzyzv7CHB5T7eXx4qnWiwfwXEt8lUbgPUyD+rVdhqrmXrd+fdjVt+R2EH1wnxfdNIqrLcd7H2A=="
+  "resolved" "https://registry.npmjs.org/@fontsource/poiret-one/-/poiret-one-4.2.2.tgz"
+  "version" "4.2.2"
+
 "@gatsbyjs/reach-router@^1.3.6":
   "integrity" "sha512-RW9ZBir9kqtw4IWm+Z+DLWGOeoJxoaTvNVrnR5fV9zD8EmfAhbBN/hS6i6VnTMFZ7rdd6mnpx2/XtnMvYfsaVQ=="
   "resolved" "https://registry.npmjs.org/@gatsbyjs/reach-router/-/reach-router-1.3.6.tgz"
