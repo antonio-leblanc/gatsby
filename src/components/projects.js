@@ -7,6 +7,9 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
+import OutlinedCard from '../components/project-card'
+
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -82,17 +85,15 @@ export default function NavTabs() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <h2>Pantera</h2>
-        
+        <OutlinedCard text='Pantera'></OutlinedCard>
         <a href='https://umgrauemeio.com/solucoes/' target='_blank'>Pantera</a>
-
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <h2>ThreeJs</h2>
+        <OutlinedCard text='ThreeJs'></OutlinedCard>
         <a href='https://antonio-leblanc.github.io/threejs/' target='_blank'>Threejs</a>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Ancestralidade
+        <OutlinedCard text='Ancestralidade'></OutlinedCard>
       </TabPanel>
     </div>
   );
