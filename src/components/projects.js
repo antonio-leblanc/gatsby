@@ -86,8 +86,14 @@ export default function NavTabs() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        {/* <OutlinedCard text='Pantera'></OutlinedCard> */}
         <a href='https://umgrauemeio.com/solucoes/' target='_blank'>Pantera</a>
+      <section class="subsection">
+      <div class="subsection-fix-video">
+        <div class="video-container">
+          <iframe class="resp-iframe" src="https://www.youtube.com/embed/FoUm9PzCnGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
       </TabPanel>
       <TabPanel value={value} index={1}>
         {/* <OutlinedCard text='ThreeJs'></OutlinedCard> */}
