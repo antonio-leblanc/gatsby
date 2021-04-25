@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[501],{262:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return a}});var l=r(7294),n=r(5444);function a(){return l.createElement("div",{style:{color:"teal"}},l.createElement(n.rU,{to:"/"},"Home"),l.createElement("p",null,"Send us a message!"))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-5fc16c79a656042718ad.js.map
