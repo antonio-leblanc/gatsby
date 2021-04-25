@@ -1,9 +1,7 @@
 import React from 'react';
 // import React, { useEffect } from 'react';
-// import { MapContainer, TileLayer } from "react-leaflet";
 
 export default function Map() {
-  // const defaultPosition = [48.864716, 2.349]; // Paris position
 
   return (<>
   <section class="bg-img-4 section"></section>
