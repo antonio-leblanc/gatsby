@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 import OutlinedCard from '../components/project-card'
+import MediaControlCard from '../components/project-card2'
 
 
 function TabPanel(props) {
@@ -93,7 +94,7 @@ export default function NavTabs() {
         <a href='https://antonio-leblanc.github.io/threejs/' target='_blank'>Threejs</a>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <OutlinedCard text='Ancestralidade'></OutlinedCard>
+        <MediaControlCard text='Ancestralidade'></MediaControlCard>
       </TabPanel>
     </div>
   );
