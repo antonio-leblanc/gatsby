@@ -36,6 +36,34 @@ export default function Sports() {
     <img className="rounded-img" src={'/images/tri4.jpeg'} alt="Logo" />
     </div>
   </section>
+
+  <section class="subsection">
+
+    <div class="subsection-content">
+
+      <div class="content-block">
+        <h3 class ="block-title">
+          {/* <img class="header-icon" src="images/icons/skate.svg"> */}
+          Other interests
+        </h3>
+        <div class="styled-list">
+          <ul>
+            <li>Skate</li>
+            <li>Surf</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="subsection-fix-video">
+      <div class="video-container">
+        <iframe class="resp-iframe" src="https://www.youtube.com/embed/rY_qraWPbE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  
+
+  </section>
+
   </section>
   </>
   );
