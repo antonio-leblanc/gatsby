@@ -30,6 +30,10 @@ body::-webkit-scrollbar-thumb {
   background: #ffdd1f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* -------------------------------- */
 body {
   background-color: #0c121b;

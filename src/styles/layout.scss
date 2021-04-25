@@ -39,7 +39,9 @@ body::-webkit-scrollbar-thumb {
 	background:$secondary-color;
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
 /* -------------------------------- */ 
 
 
