@@ -496,6 +496,10 @@ body {
   background-image: url(/images/moto-ride.png);
 }
 
+.bg-img-3 {
+  background-image: url(/images/asia-komodo.jpg);
+}
+
 /* -- Opening -- */
 .intro-text {
   text-align: left;
@@ -542,6 +546,7 @@ body {
 }
 
 .sports .text-mask {
+  background-image: url(/images/sports-bg.png);
   font-size: 18vw;
   font-weight: bolder;
 }

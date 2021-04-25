@@ -473,10 +473,10 @@ $job-tab-active-bg:rgb(22, 35, 53);
 
 /* -- BG IMAGES -- */
 .bg-img-1{background-image: url(/images/moto-ride.png);}
-// .bg-img-2{background-image: url(../images/asia-komodo.jpg);}
-// .bg-img-3{background-image: url(../images/snowboard.jpg);}
-// .bg-img-4{background-image: url(../images/volcano.jpg);}
-// .bg-img-5{background-image: url(../images/rick-morty.jpg);}
+.bg-img-3{background-image: url(/images/asia-komodo.jpg);}
+// .bg-img-3{background-image: url(/images/snowboard.jpg);}
+// .bg-img-4{background-image: url(/images/volcano.jpg);}
+// .bg-img-5{background-image: url(/images/rick-morty.jpg);}
 
 
 /* -- Opening -- */
@@ -528,7 +528,7 @@ font-weight:bolder;
 }
 
 .sports .text-mask{
-    // background-image: url(../images/sports-bg.png);
+    background-image: url(/images/sports-bg.png);
     font-size: 18vw;
     font-weight: bolder;
 }
@@ -636,7 +636,7 @@ font-weight:bolder;
 .end {
     background-color: rgba(89, 51, 158, 0.651);
     .text-mask{
-        // background-image: url(../images/travel.jpg);
+        // background-image: url(/images/travel.jpg);
         font-size: 18vw;
     }
 }
