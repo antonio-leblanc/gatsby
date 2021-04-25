@@ -13,6 +13,7 @@ import Sports from "../components/sports"
 
 import AOS from 'aos';
 import "../styles/layout.css"
+import "@fontsource/montserrat" // Defaults to weight 400.
 
 export default function Home() {
   useEffect(() => {
@@ -52,7 +53,7 @@ export default function Home() {
           target.classList.add('active')
       })
   })
-  
+
   
   });
 
