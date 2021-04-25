@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Intro() {
   return (<>
-  <div className="subsection" data-aos="fade-right">
+  <div className="subsection" data-aos="fade-right" id= "about">
     <div className="img-container">
     <img className="rounded-img" src={'/images/about_me.jpg'} alt="Logo" />
     </div>
